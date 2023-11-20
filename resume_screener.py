@@ -1,10 +1,12 @@
 # Import all libraries
+import pickle
 import sys
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
-from tensorflow.keras.preprocessing.text import Tokenizer
-from tensorflow.keras.preprocessing.sequence import pad_sequences
+# from tensorflow.keras.preprocessing.text import Tokenizer
+# from tensorflow.keras.preprocessing.sequence import pad_sequences
+from keras.utils import pad_sequences
 import nltk
 from nltk.corpus import stopwords
 import ssl
